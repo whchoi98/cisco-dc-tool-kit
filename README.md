@@ -25,3 +25,11 @@ UCSM SDK를 기반으로 UCSM에 접속하여, UCSM의 자원 정보를 수집�
 VMware Pyvmomi
 ==============
 VMware SDK Pyvmomi를 기반으로 vCenter, ESX등에 접속하여 정보를 수집하거나 구성정보를 Push 할 수 있습니다.
+
+docker command
+===============
+이미지 다운로드
+* docker pull whchoi98/cisco-dc-tool-kit:1.0
+
+도커 실행
+* docker run --name abc -it whchoi98/cisco-dc-tool-kit:1.0 /bin/ash
