@@ -134,7 +134,31 @@ asav-223
 docker command
 ===============
 이미지 다운로드
-* docker pull whchoi98/cisco-dc-tool-kit:1.0
+```
+docker pull whchoi98/cisco-dc-tool-kit:1.0
+```
 
 도커 실행
-* docker run --name abc -it whchoi98/cisco-dc-tool-kit:1.0 /bin/ash
+```
+docker run --name abc -it whchoi98/cisco-dc-tool-kit:1.0 /bin/ash
+docker abc start
+docker attach start
+
+/ # cat /etc/*-release*
+3.9.4
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.9.4
+PRETTY_NAME="Alpine Linux v3.9"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://bugs.alpinelinux.org/"
+
+/ # ls
+acitoolkit                        mnt                               srv
+bin                               nxtoolkit                         sys
+dev                               opt                               tmp
+etc                               proc                              ucsmsdk
+home                              root                              usr
+lib                               run                               var
+media                             sbin                              whchoi_pyvmomi-community-samples
+```
